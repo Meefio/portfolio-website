@@ -1,3 +1,4 @@
+'use client'
 import { FaLocationArrow } from 'react-icons/fa'
 import MagicButton from './ui/MagicButton'
 import { Spotlight } from './ui/Spotlight'
@@ -44,7 +45,7 @@ const Hero = () => {
 							title='Show my work'
 							icon={<FaLocationArrow />}
 							position='right'
-                     handleClick={() => null}
+                     handleClick={() => {}}
 						/>
 					</a>
 				</div>
